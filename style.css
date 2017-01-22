@@ -1,0 +1,508 @@
+HTML, header, body {
+	margin:0;
+	padding:0;
+	background-image: url('style/pattern/soft_circle_scales.png');
+
+}
+
+body {
+	margin-top: 50px;
+	/*border: 3px solid red;*/
+}
+H1,H2,H3,H4,H5,H6{
+	color: rgb(71,163,216);
+
+}
+
+H1 {
+ font-size:3em;
+ margin-top:1em;
+ text-align:left;
+margin-left:7%;
+
+}
+H2 {
+ font-size:2em;
+}
+H3 {
+ font-size:1.5em;
+}
+
+#wrap {
+	margin: auto;
+	margin-top:0px;
+	width:90%;
+	position:relative;
+	text-align:left;
+	background-color:white;
+	padding:1em;
+}
+
+#menu {
+	margin:0;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	padding:.2em;
+	text-align:left;
+	padding-top:.31em;
+	letter-spacing:1px;
+	margin-left:240px;
+}
+
+#menu div {
+		padding:0.3em;
+		margin-top:0.3em;
+	color: rgb(80,91,80);
+		font-weight:bold;
+
+}
+#menu a {
+		font-weight:bolder;
+		font-size:1.3em;
+		text-transform:capitalize;
+
+		color: rgb(71,163,216);
+
+}
+.menu1 {
+		border-bottom: 1px solid rgb(71,163,216);
+}
+.menu2  {
+		border-bottom: 1px solid rgb(71,163,216);
+		margin-left:5em;
+}
+
+#usermenu  {
+
+padding:0;
+}
+
+#usermenu .text {
+margin:0em;
+padding:0em;
+position:absolute;
+height:30px;
+top:0;
+left:138px;
+}
+
+
+
+#lang {
+  border: 0 solid red;
+  left: 45px;
+  position: absolute;
+  top: 395px;
+  width: 120px;
+  font-size:0.9em;
+}
+
+#lang img {
+ 	width:25px;
+}
+
+.content {
+	margin:0;
+	padding:2em;
+	padding-top:2em;
+	background-color:white;
+	text-align:left;
+}
+.content p {
+
+
+}
+.content h2,.content h3,.content h4,.content h5,.content h6 {
+
+	padding:.5em;
+}
+
+
+#footer {
+
+
+	      padding:.5em;
+	/*background-color:rgb(100,200,200);*/
+	/*border-top:1px solid rgb(119,241,45);*/
+	text-align:center;
+	margin:1em;
+
+}
+#footer span {
+	display:none;
+}
+
+.program  {
+}
+
+.program th  {
+	border-bottom: 1px solid black;
+	padding:0.2em;
+	font-size:0.9em;
+}
+.program td  {
+	border-bottom: 1px solid black;
+	padding:0.2em;
+}
+
+.acro {
+	color:#FF1200;
+	font-weight: bold;
+}
+.therapeutic {
+	color:#259238;
+	font-weight: bold;
+}
+.foundation {
+	color:#0C5AA6;
+	font-weight: bold;
+}
+.extra {
+	color:#FF9700;
+	font-weight: bold;
+}
+.teaching {
+	color:#A60C00;
+	font-weight: bold;
+}
+
+table.profile  td {
+	padding-left:.5em;
+}
+table.availability {
+	font-size:0.9em;
+
+}
+table.availability  th {
+	text-align:left;
+	/*width: 33%;*/
+	background-color:rgb(40,40,60);
+	color: white;
+	padding-left:.2em;
+}
+table.availability  td {
+	padding:0.5em;
+
+	vertical-align:top;
+}
+table.availability th a {
+	color:white;
+}
+
+.par {
+	background-color:#F0F0F0;
+}
+.dis {
+	background-color:#F5F5F5;
+}
+
+#practList {
+
+
+}
+#practList h4 {
+	margin:2px 0 0 3px;
+
+}
+.pract {
+	clear:both;
+	margin-bottom:0.5em;
+	margin-right:1em;
+	/*border:1px solid black;*/
+	height:140px;
+	font-size:0.9em;
+
+}
+.pract img {
+	float:left;
+	margin-right:.5em;
+	border:2px solid black;
+}
+
+
+.practSchedule {
+	font-size:0.85em;
+
+	display:block;
+	margin-left:100px;
+	margin-top:10px;
+}
+.practSchedule ul {
+	margin:0;
+}
+#testimonials {
+position: relative;
+float: right;
+ width: 45%;
+margin:1em;
+
+}
+
+
+#testimonials p {
+	text-align:center;
+}
+
+@media (max-width: 600px) {
+    /* CSS goes here */
+		#testimonials {
+		 position: auto;
+		width: 90%;
+		margin:2em;
+		padding:auto;
+
+		}
+}
+
+
+.video {
+	background-color:black;
+	text-align:center;
+	padding:0.4em;
+
+
+	background-image: url('style/pattern/escheresque_ste.png');
+}
+
+.video iframe {
+position: auto;
+width: 65%;
+margin:0;
+padding:auto;
+margin-top:2em;
+margin-bottom:2em;
+}
+
+@media (max-width: 800px) {
+    /* CSS goes here */
+		.video iframe {
+		 position: auto;
+		width: 90%;
+		margin-top:2em;
+		margin-bottom:2em;
+				padding:auto;
+
+		}
+}
+
+.teachersList {
+
+}
+.teacherIcon {
+ position:relative;
+ border:1px solid black;
+ float:left;
+ width:50px;
+ height:50px;
+background-repeat:no-repeat;
+
+ }
+ .teacherLI {
+ clear:both;
+ margin-top:0.5em;
+
+ }
+
+ .teacherName {
+margin:10px;
+
+
+ }
+
+.teacherListBox {
+	margin-bottom: 3em;
+}
+.teacherListBox .img-thumbnail
+{
+	height: 220px;
+}
+  .teacherLI div{
+ height:50px;
+ }
+.fons {
+background-image: url('http://partneracrobatics.com/upload/52.jpg');
+ background-size:50px;
+background-position:64% 37%;
+}
+.emily {
+background-image: url('http://www.partneracrobatics.com/upload/33.jpg');
+ background-size:60px;
+background-position:20% 30%;
+}
+.niko {
+background-image: url('http://www.partneracrobatics.com/upload/34.jpg');
+ background-size:70px;
+background-position:30% 30%;
+}
+.lorenzo {
+background-image: url('http://www.partneracrobatics.com/upload/32.jpg');
+ background-size:70px;
+background-position:20% 30%;
+}
+.mimi {
+background-image: url('http://www.partneracrobatics.com/upload/36.jpg');
+ background-size:80px;
+background-position:45% 20%;
+}
+.martin {
+background-image: url('http://www.partneracrobatics.com/upload/56.jpg');
+ background-size:70px;
+background-position:40% 30%;
+}
+.blox {
+background-image: url('http://www.partneracrobatics.com/upload/73.jpg');
+ background-size:70px;
+background-position:40% 30%;
+}
+.rhiannon {
+background-image: url('http://www.partneracrobatics.com/upload/40.jpg');
+ background-size:70px;
+background-position:40% 30%;
+}
+.zsa {
+background-image: url('http://www.partneracrobatics.com/upload/76.jpg');
+ background-size:70px;
+background-position:40% 30%;
+}
+.gabe {
+background-image: url('http://www.partneracrobatics.com/upload/79.jpg');
+ background-size:70px;
+background-position:40% 30%;
+}
+
+#lang_disclaimer {
+	text-align:center;
+	margin:2em;
+	margin-left:auto;
+	margin-right:auto;
+	padding:1em;
+	border:1px solid green;
+	color:red;
+	font-size:1.2em;
+}
+
+/* PROGRAM TABLE*/
+.progFood {
+	background-color:#E0E0E0;
+}
+.progOffTime {
+	background-color:#E0E0E0;
+}
+.progHandstand {
+	background-color:#FFFF66;
+}
+.progTeaching {
+	background-color:#9999FF;
+}
+.progLecture {
+	background-color:#99FFCC;
+}
+.progOptional {
+	background-color:#FFE5CC;
+}
+.progFoundations {
+	background-color:#FF6666;
+}
+.progMixedGrill {
+	background-color:#FF9933;
+}
+.progWarmUp {
+	background-color:#FF66FF;
+}
+.progTherapy{
+	background-color:#CC99FF;
+}
+
+.progLegend span {
+	padding:0.3em;
+
+}
+
+/* PROGRAM TABLE ends */
+
+.navbar {
+	vertical-align:bottom;
+	min-height:80px;
+}
+
+.navbar-fixed-top {
+	background-image: url('style/pattern/soft_circle_scales_down.png');
+	vertical-align:bottom;
+}
+
+.fb{
+	clear:both;
+	position:relative;
+	margin:1em;
+	margin-bottom:0px;
+	text-align:right;
+
+}
+
+
+.manual iframe {
+position: auto;
+width: 65%;
+margin:0;
+height:500px;
+padding:auto;
+margin-top:2em;
+margin-bottom:2em;
+}
+
+@media (max-width: 800px) {
+    /* CSS goes here */
+		.manual iframe {
+		 position: auto;
+		width: 90%;
+		margin-top:2em;
+		margin-bottom:2em;
+				padding:auto;
+
+		}
+}
+
+.manual img {
+position: auto;
+width: 65%;
+margin:0;
+padding:auto;
+margin-top:2em;
+margin-bottom:2em;
+}
+
+@media (max-width: 800px) {
+    /* CSS goes here */
+		.manual img {
+		 position: auto;
+		width: 90%;
+		margin-top:2em;
+		margin-bottom:2em;
+				padding:auto;
+
+		}
+}
+
+.fb-like{
+	margin:1em;
+	margin-top:0;
+	padding-left:100px;
+}
+@media (max-width: 960px) {
+    /* CSS goes here */
+		.fb-like{
+			margin:0;
+			margin:1em;
+		}
+}
+@media (max-width: 355px) {
+    /* CSS goes here */
+		.fb-like{
+			margin:0.1em;
+		}
+}
+
+
+
+
+/*. styles for schedule */
