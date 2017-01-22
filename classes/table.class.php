@@ -34,7 +34,7 @@ class tableManager{
    * The database that we will use
    * var string
    */
-  var $dbName = 'pa';
+  var $dbName = 'pa-sql';
   /**
    * The database host
    * var string
@@ -49,7 +49,7 @@ class tableManager{
    * The database user
    * var string
    */
-  var $dbUser = 'root';
+  var $dbUser = 'ominiverdi';
   /**
    * The database password
    * var string
@@ -106,9 +106,30 @@ class tableManager{
 			}
 	    }
 
-	    if ( isset($_SERVER['SERVER_NAME']) ) {
+	    if ( isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'localhost') {
         $this->dbConn = ($dbConn=='')? mysqli_connect($this->dbHost.':'.$this->dbPort, $this->dbUser, $this->dbPass):$dbConn;
-     }
+      } elseif(isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == '3-dot-partner-acrobatics.appspot.com') {
+        $this->dbConn =  mysqli_connect(
+  null, // host
+  'root', // username
+  'bibi1973',     // password
+  '', // database name
+  null,
+  '/cloudsql/partner-acrobatics:dummy'
+  );
+
+        //mysqli_connect(':/cloudsql/partner-acrobatics:dummy', 'root', 'bibi1973');
+      } else {
+        //$this->dbConn =  mysqli_connect(':/cloudsql/partner-acrobatics:pa-sql', 'root', 'bibi1973');
+        $this->dbConn =  mysqli_connect(
+  null, // host
+  'ominiverdi', // username
+  'bibi1973',     // password
+  '', // database name
+  null,
+  ''
+  );
+      }
 
 	    if ( !$this->dbConn ) die(mysqli_connect_error($this->dbConn));
 	    mysqli_select_db($this->dbConn,$this->dbName)or die(mysqli_connect_error($this->dbConn));
