@@ -292,7 +292,7 @@ $fbDesc = (isset($pageDesc)&&$pageDesc)?$pageDesc:$label[$curLang]['facebook_des
 								<li><a href="location-15.php"> <?=$label[$curLang]['location'];?> </a></li>
 								<li><a href="info-15.php"> <?=$label[$curLang]['info'];?> </a></li>
                 <li><a href="fees-15.php"> <?=$label[$curLang]['fees'];?> </a></li>
-                  <li><a href="schedule-15.php"> Schedule </a></li>  
+                 <!-- <li><a href="schedule-15.php"> Schedule </a></li> --> 
 
 		 		<li class="divider"></li>  
                 <li class="dropdown-header">Aug 2017, Spain - Teacher Training, 1 month</li>  
@@ -300,7 +300,7 @@ $fbDesc = (isset($pageDesc)&&$pageDesc)?$pageDesc:$label[$curLang]['facebook_des
 		       <li><a href="location-tt.php"> <?=$label[$curLang]['location'];?> </a></li> 
 		       <li><a href="info-tt.php"> <?=$label[$curLang]['info'];?> </a></li> 
                      <li><a href="fees-tt.php"> <?=$label[$curLang]['fees'];?> </a></li> 
-                       <li><a href="schedule-tt.php"> Schedule </a></li> 
+                    <!--   <li><a href="schedule-tt.php"> Schedule </a></li> -->
 
 		      <li class="divider"></li>
 		      <li class="dropdown-header">Nov 2017, Mexico - Intensive, 1 or 2 weeks</li> 

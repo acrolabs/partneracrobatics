@@ -93,11 +93,7 @@
 
 
 
-		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-			<h2> Jan 2017 <br> Thailand <br> Intensive</h2>
-			<p>Intensive Training from Jan 3rd to 16th in Thailand</p>
-			<p><a class="btn btn-default" href="program-thai.php" role="button"><?=$label[$curLang]['button_view_details'];?> &raquo;</a></p>
-		</div><!-- /.col-lg-4 -->
+		
 		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 			<h2> June 2017 <br> Spain <br>Intensive </h2>
 			<p>One or two weeks from Jun 8th to 21st</p>
@@ -110,6 +106,11 @@
 		     <p><a class="btn btn-default" href="program-tt.php" role="button"><?=$label[$curLang]['button_view_details'];?> &raquo;</a></p>
 		     </div> 
 		<!-- /.col-lg-4 -->
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+			<h2> Nov 2017 <br> Mexico <br> Intensive</h2>
+			<p>Intensive Training from Nov 6th to 20th in Mexico</p>
+			<p><a class="btn btn-default" href="program-thai.php" role="button"><?=$label[$curLang]['button_view_details'];?> &raquo;</a></p>
+		</div><!-- /.col-lg-4 -->
 		
 	</div><!-- /.row -->
 </div><!-- /.container marketing -->

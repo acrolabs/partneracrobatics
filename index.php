@@ -109,7 +109,7 @@
 		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 			<h2> Nov 2017 <br> Mexico <br> Intensive</h2>
 			<p>Intensive Training from Nov 6th to 20th in Mexico</p>
-			<p><a class="btn btn-default" href="program-thai.php" role="button"><?=$label[$curLang]['button_view_details'];?> &raquo;</a></p>
+			<p><a class="btn btn-default" href="program-am.php" role="button"><?=$label[$curLang]['button_view_details'];?> &raquo;</a></p>
 		</div><!-- /.col-lg-4 -->
 		
 	</div><!-- /.row -->

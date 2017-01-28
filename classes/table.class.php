@@ -34,7 +34,7 @@ class tableManager{
    * The database that we will use
    * var string
    */
-  var $dbName = 'pa-sql';
+  var $dbName = 'pa';
   /**
    * The database host
    * var string
@@ -49,7 +49,7 @@ class tableManager{
    * The database user
    * var string
    */
-  var $dbUser = 'ominiverdi';
+  var $dbUser = 'root';
   /**
    * The database password
    * var string
@@ -123,7 +123,7 @@ class tableManager{
         //$this->dbConn =  mysqli_connect(':/cloudsql/partner-acrobatics:pa-sql', 'root', 'bibi1973');
         $this->dbConn =  mysqli_connect(
   null, // host
-  'ominiverdi', // username
+  'root', // username
   'bibi1973',     // password
   '', // database name
   null,
