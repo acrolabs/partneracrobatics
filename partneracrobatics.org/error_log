@@ -1,0 +1,4 @@
+[22-Jan-2017 12:04:55 UTC] PHP Warning:  file_put_contents(/home/partneracro/public_html/partneracrobatics.org/wp-content/deleteme.3155698f3701492e9e2101e57142c1d6.php): failed to open stream: No such file or directory in /home/partneracro/public_html/partneracrobatics.org/deleteme.3155698f3701492e9e2101e57142c1d6.php on line 31
+[22-Jan-2017 12:05:10 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/partneracro/public_html/partneracrobatics.org/deleteme.wpmzyl.php on line 16
+[22-Jan-2017 12:05:10 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/partneracro/public_html/partneracrobatics.org/deleteme.wp89re.php on line 16
+[22-Jan-2017 12:05:10 UTC] PHP Fatal error:  Call to undefined function get_transient() in /home/partneracro/public_html/partneracrobatics.org/deleteme.wpaahq.php on line 16
