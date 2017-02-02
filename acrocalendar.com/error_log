@@ -1,6 +1,0 @@
-[02-Feb-2017 10:59:25 UTC] PHP Warning:  include(init.php): failed to open stream: No such file or directory in /home/partneracro/public_html/acrocalendar.com/index.php on line 2
-[02-Feb-2017 10:59:25 UTC] PHP Warning:  include(): Failed opening 'init.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/partneracro/public_html/acrocalendar.com/index.php on line 2
-[02-Feb-2017 10:59:25 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/partneracro/public_html/acrocalendar.com/index.php on line 3
-[02-Feb-2017 10:59:25 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/partneracro/public_html/acrocalendar.com/index.php on line 3
-[02-Feb-2017 10:59:25 UTC] PHP Notice:  Undefined variable: table in /home/partneracro/public_html/acrocalendar.com/index.php on line 28
-[02-Feb-2017 10:59:25 UTC] PHP Fatal error:  Call to a member function create_table() on null in /home/partneracro/public_html/acrocalendar.com/index.php on line 28
