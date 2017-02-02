@@ -1,0 +1,17 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.plugin .footer #branding a {
+    color: #555;
+    text-decoration: none;
+    display: none;
+}
+.plugin .footer #branding {
+    color: #666;
+    display: none!important;
+}
+.plugin .footer {
+    left: 2px;
+    display: none;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

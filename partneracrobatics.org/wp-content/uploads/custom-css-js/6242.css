@@ -1,0 +1,34 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.fb_iframe_widget {
+    padding-top: 5px;
+  padding-bottom: 5px;
+  
+}
+.fb_iframe_widget {
+    display: -webkit-box!important;
+}
+.fb_iframe_widget {
+    line-height: 5.2;
+}
+
+/*
+.fb_iframe_widget {
+    line-height: 2.8;
+}
+*/
+
+
+div#PATITLE {
+    display: -webkit-inline-box!important;
+    font-size: larger;
+    line-height: 2;
+    font-weight: bold;
+    color: #00a3d7;
+      text-align: -webkit-left;
+}
+.menu-align-center .responsive-logo {
+    width: 100%;
+    text-align: start;
+}</style>
+<!-- end Simple Custom CSS and JS -->

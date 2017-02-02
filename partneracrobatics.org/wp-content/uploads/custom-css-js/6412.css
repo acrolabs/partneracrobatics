@@ -1,0 +1,7 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea {
+    display: block;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

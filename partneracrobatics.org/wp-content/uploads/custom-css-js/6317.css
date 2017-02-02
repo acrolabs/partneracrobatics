@@ -1,0 +1,17 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.entry-meta {
+    margin-top: 10px;
+    display: none;
+}
+.post .entry-footer {
+    display: none;
+}
+.entry-footer {
+    display: none;
+}
+div#respond {
+  display: none
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

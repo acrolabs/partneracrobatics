@@ -1,4 +1,7 @@
 <?php
+/** Enable W3 Total Cache */
+ //Added by WP-Cache Manager
+
 /**
  * The base configuration for WordPress
  *
@@ -20,6 +23,9 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+ //Added by WP-Cache Manager
+//define('WP_CACHE', false); //Added by WP-Cache Manager
+define( 'WPCACHEHOME', '' ); //Added by WP-Cache Manager
 define('DB_NAME', 'i3251526_wp3');
 
 /** MySQL database username */
@@ -46,14 +52,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'Esfx6UXnwLUzfKom9VuhTmUr0xtuICLbLFNerG97yizlVLccbDHdQj9VghwbvkO2');
-define('SECURE_AUTH_KEY',  'JeUCRbE9dAvfxDKafc7Y8nrQjwwO1Hr0CU2lH7sN9VofwIzgyX1vk287kkqYcTqB');
-define('LOGGED_IN_KEY',    'GbmKpCNbiuTihM7Ie3Sp191a9US5IGbLMyRHIfzU9qDMFZlzZFleSYHmAQbp5YGP');
-define('NONCE_KEY',        'rAqap35E2Ii3Uexfsw01TSZcNaNocpo5dubO2XPeQDJ43Hi1taV6Rjy1i3FU16ak');
-define('AUTH_SALT',        'I4aDKQ9xBM4DDFEwoss3IrvhYk7JTPmwZNoCXdV6GVo0LdNuOy98OvTxHc0oWCCR');
-define('SECURE_AUTH_SALT', 'vSnr1KrgaSyxyPTWVQF4Cngpm28WIHmDaiWhnQMd8MQudFthLt3HxJ5iUh63DPix');
-define('LOGGED_IN_SALT',   'nl5q75lxhCCNx2GvWbABSzkiSKBBaOIqx046gDhJ1ocjIutyjJcN6bVbB2ZzyiIk');
-define('NONCE_SALT',       'ogmqwIXPz9spXy38AMAsivmfCel9We9bDpfZ5pBRYM3W13ReMaTiS0qFisl2r5O1');
+define('AUTH_KEY',         '26K1pF1SJQj0IkNBFqOY6F0XHCQ0C7cTicAL7TzaIsKUXSFiu5fgWzj1aiUfYjeg');
+define('SECURE_AUTH_KEY',  'Rb8Zy2aXQdFxt6Uu6eodFaqLGtB4xip4XZkNWoTdNPR4oT6kNsT4Po96YlucicIg');
+define('LOGGED_IN_KEY',    'NXrPl8aL4d9mbUxrUz6tGf3vVRkruiN0JfzakZ3FNWmPRdfB2W4M5GSlXM4CPKLk');
+define('NONCE_KEY',        'G22QM8R2rrRmJSLOAqN2R84in3N6kwQFztvBENIZrRTK81M3dje7a1KZ8Du3wEXn');
+define('AUTH_SALT',        'ifNjzRMQjs167JGi5pnWkkfjgjuqZD9220lxSmhbILnnyyWxkIYPffEtyPjYK6QF');
+define('SECURE_AUTH_SALT', '17OuMxXQcMnItkoucJffsOjnhPWTENcKwPelnOZGyxnCkaiJaHKzJPZouSDsC1bG');
+define('LOGGED_IN_SALT',   '8jAHN7Qhnk0gAkfcWIJNJb2is7TNw0La5B6cRbNSZtq9OaNH2PEZIwlPE7UIN8ze');
+define('NONCE_SALT',       'UBpH2aQMypnRZH1hGfU6S7VaYt9quVcsNxJUcgg8jMiA8PBBjVmH7mmtoPcV83bq');
 
 /**
  * Other customizations.

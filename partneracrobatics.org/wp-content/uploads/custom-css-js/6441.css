@@ -1,0 +1,20 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover {
+    background: #01a3d7 !important;
+    border-color: #00a3d7 !important;
+    color: #f5f5f5 !important;
+    font-weight: bolder !important;
+}
+.responsive-tabs__list__item {
+    background: #000 !important;
+border: 1px solid #404040 !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    color: #f5f5f5 !important;
+}
+.responsive-tabs .responsive-tabs__panel {
+border: 1px solid rgba(255,255,255,.15) !important;
+    border-top: 5px solid #00a3d7 !important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

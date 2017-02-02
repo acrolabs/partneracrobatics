@@ -1,0 +1,17 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+#cn-cmap div.cn-list-section-head {
+	display:none !important;
+}
+#cn-cmap div.cn-list-row,
+#cn-cmap div.cn-list-row-alternate {
+	float: left;
+	margin-right: 10px;
+	height: 160px;
+	width: 23rem;
+}
+#cn-cmap div#cn-list-foot {
+	clear:both;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

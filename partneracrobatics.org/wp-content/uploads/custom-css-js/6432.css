@@ -1,0 +1,165 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > DIV > DIV.responsive-tabs-wrapper > DIV.responsive-tabs.responsive-tabs--enabled > DIV#tablist1-panel1 {
+       border-color: rgba(255,255,255,1); 
+       border-top-color: rgba(0,0,0,1); 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > DIV > DIV.responsive-tabs-wrapper > DIV.responsive-tabs.responsive-tabs--enabled > UL.responsive-tabs__list > LI#tablist1-tab1 {
+       background-color: rgba(0,0,0,1); 
+       border-bottom-color: rgba(0,0,0,1); 
+       border-top-color: rgba(0,0,0,1); 
+       color: rgba(249,249,249,1); 
+       font-weight: bold; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > DIV > DIV.responsive-tabs-wrapper > DIV.responsive-tabs.responsive-tabs--enabled > UL.responsive-tabs__list > LI#tablist1-tab2 {
+       color: rgba(0,0,0,1); 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > DIV > DIV.responsive-tabs-wrapper > DIV.responsive-tabs.responsive-tabs--enabled > UL.responsive-tabs__list > LI#tablist1-tab3 {
+       color: rgba(5,4,4,1); 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > DIV > IMG.attachment-full.size-full {
+       width: 100%; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content > DIV > H2 > SPAN {
+       font-size: 22px; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > DIV#tribe-events > DIV#tribe-events-content-wrapper > DIV#tribe-events-content > DIV > DIV > H2 > A {
+       font-size: 26px; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > P > IFRAME {
+       display: block; 
+       width: 100%; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > SECTION#focus > DIV.container > DIV.row > SPAN#ctup-ads-widget-10 > DIV.focus-box > P  {
+       background-attachment: scroll!important; 
+       background-color: transparent!important; 
+       background-image: none!important; 
+       background-position: 0% 0%!important; 
+       background-repeat: repeat!important; 
+       background-size: auto!important; 
+       border-bottom-color: #000000!important; 
+       border-bottom-left-radius: 0px!important; 
+       border-bottom-right-radius: 0px!important; 
+       border-bottom-style: none; 
+       border-bottom-width: 0px!important; 
+       border-left-color: #000000!important; 
+       border-left-style: none; 
+       border-left-width: 0px!important; 
+       border-right-color: #000000!important; 
+       border-right-style: none; 
+       border-right-width: 0px!important; 
+       border-top-color: #000000!important; 
+       border-top-left-radius: 0px!important; 
+       border-top-right-radius: 0px!important; 
+       border-top-style: none; 
+       border-top-width: 0px!important; 
+       color: #000000; 
+       font-family: Lato, Helvetica, sans-serif!important; 
+       font-size: 14px!important; 
+       font-style: normal!important; 
+       font-weight: bold; 
+       letter-spacing: 0!important; 
+       line-height: 21px!important; 
+       text-decoration: none!important; 
+       text-shadow: none!important; 
+       text-transform: none!important; 
+       word-spacing: 0px!important; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > SECTION#focus > DIV.container > DIV.row > SPAN#ctup-ads-widget-11 > DIV.focus-box > P  {
+       background-attachment: scroll!important; 
+       background-color: transparent!important; 
+       background-image: none!important; 
+       background-position: 0% 0%!important; 
+       background-repeat: repeat!important; 
+       background-size: auto!important; 
+       border-bottom-color: rgb(0, 0, 0)!important; 
+       border-bottom-left-radius: 0px!important; 
+       border-bottom-right-radius: 0px!important; 
+       border-bottom-style: none; 
+       border-bottom-width: 0px!important; 
+       border-left-color: rgb(0, 0, 0)!important; 
+       border-left-style: none; 
+       border-left-width: 0px!important; 
+       border-right-color: rgb(0, 0, 0)!important; 
+       border-right-style: none; 
+       border-right-width: 0px!important; 
+       border-top-color: rgb(0, 0, 0)!important; 
+       border-top-left-radius: 0px!important; 
+       border-top-right-radius: 0px!important; 
+       border-top-style: none; 
+       border-top-width: 0px!important; 
+       color: rgb(0, 0, 0)!important; 
+       font-family: Lato, Helvetica, sans-serif!important; 
+       font-size: 14px!important; 
+       font-style: normal!important; 
+       font-weight: bold; 
+       letter-spacing: 0!important; 
+       line-height: 21px!important; 
+       text-decoration: none!important; 
+       text-shadow: none!important; 
+       text-transform: none!important; 
+       word-spacing: 0px!important; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > SECTION#focus > DIV.container > DIV.row > SPAN#ctup-ads-widget-8 > DIV.focus-box > P  {
+       color: rgba(0,0,0,1); 
+       font-style: normal; 
+       font-weight: bold; 
+       text-decoration: none; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > SECTION#focus > DIV.container > DIV.row > SPAN#ctup-ads-widget-9 > DIV.focus-box > P  {
+       background-attachment: scroll!important; 
+       background-color: transparent!important; 
+       background-image: none!important; 
+       background-position: 0% 0%!important; 
+       background-repeat: repeat!important; 
+       background-size: auto!important; 
+       border-bottom-color: rgb(0, 0, 0)!important; 
+       border-bottom-left-radius: 0px!important; 
+       border-bottom-right-radius: 0px!important; 
+       border-bottom-style: none; 
+       border-bottom-width: 0px!important; 
+       border-left-color: rgb(0, 0, 0)!important; 
+       border-left-style: none; 
+       border-left-width: 0px!important; 
+       border-right-color: rgb(0, 0, 0)!important; 
+       border-right-style: none; 
+       border-right-width: 0px!important; 
+       border-top-color: rgb(0, 0, 0)!important; 
+       border-top-left-radius: 0px!important; 
+       border-top-right-radius: 0px!important; 
+       border-top-style: none; 
+       border-top-width: 0px!important; 
+       color: rgb(0, 0, 0)!important; 
+       font-family: Lato, Helvetica, sans-serif!important; 
+       font-size: 14px!important; 
+       font-style: normal!important; 
+       font-weight: bold; 
+       letter-spacing: 0!important; 
+       line-height: 21px!important; 
+       text-decoration: none!important; 
+       text-shadow: none!important; 
+       text-transform: none!important; 
+       word-spacing: 0px!important; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > HEADER#home > DIV.home-header-wrap > DIV.header-content-wrap > DIV.container > H1.intro-text {
+       border-style: solid; 
+       border-width: 6px!important; 
+    } 
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > HEADER#home > DIV#main-nav > DIV.container > NAV> UL.nav.navbar-nav.navbar-right.responsive-nav.main-nav-list > LI.has_children > P.dropdownmenu   {
+       background-color: rgba(0,163,215,1); 
+    } 
+</style>
+<!-- end Simple Custom CSS and JS -->

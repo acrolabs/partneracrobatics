@@ -1,0 +1,18 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.focus {
+    padding-top: 50px;
+      padding-bottom: 50px;
+}
+.focus .row .focus-box {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+} 
+
+.focus-box p {
+    font-size: medium;
+}
+.section-header .section-legend {
+    font-size: larger;</style>
+<!-- end Simple Custom CSS and JS -->

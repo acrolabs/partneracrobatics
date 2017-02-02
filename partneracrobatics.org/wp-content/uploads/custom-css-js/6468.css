@@ -1,0 +1,29 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.widget_search input {
+    color: #f7f7f7;
+    background-color: rgb(76, 76, 76);
+}
+.footer-widget-wrap {
+    background: rgb(39, 39, 39);
+}
+.footer-widget-wrap > .container {
+    height: 30px;
+}
+.footer-widget-wrap > .container {
+    height: auto!important
+}
+input[type="emailz"] {
+    background-color: #4c4c4c;
+}
+@media (max-width: 1024px) and (min-width: 768px)
+.container .company-details {
+    padding-top: 40px;
+    width: 100%
+}
+.container .company-details {
+    padding-top: 40px;
+    width: 100%!important;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

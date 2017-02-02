@@ -1,0 +1,10 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+@media (min-width: 992px)
+.col-md-9 {
+    width: 99;
+}
+.sidebar-wrap.content-left-wrap {
+    display: none;
+}</style>
+<!-- end Simple Custom CSS and JS -->

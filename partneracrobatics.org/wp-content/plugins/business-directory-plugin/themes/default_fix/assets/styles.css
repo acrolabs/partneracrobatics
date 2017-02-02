@@ -1,0 +1,147 @@
+.wpbdp-excerpt{
+    float: left;
+	width:100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+    display: inline-block;
+}
+
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+
+
+
+.listings{
+	text-align: center;
+}
+
+.wpbdp-listing-excerpt.odd{
+	background: initial!important;
+	background-color:initial!important;
+}
+
+.wpbdp-listing .listing-title {
+    border: none;
+    /*border-bottom: 1px solid #044F8D;*/
+    margin-bottom: 8px;
+    background: inherit;
+}
+
+.wpbdp-listing a {
+    color: #62CAF4;
+    text-decoration: none;
+    /*border-bottom: 1px solid #F3F3F3;*/
+}
+
+.wpbdp-single .listing-thumbnail {
+	
+	float:left!important;
+}
+.wpbdp-excerpt .listing-thumbnail {
+	float:initial!important;
+}
+
+.wpbdp-single .listing-details {
+	margin-left:160px;
+}
+
+.wpbdp-listing .listing-title a, .wpbdp-listing .listing-title h2 {
+    color: #044f8d;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 115%;
+}
+
+.wpbdp-listing .address-info label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.wpbdp-listing .wpbdp-field {
+    margin: 4px 0;
+}
+
+.wpbdp-listing .wpbdp-field-type-textarea label {
+    display: block;
+}
+
+.wpbdp-listing .listing-actions {
+    text-align: right;
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) {
+	.wpbdp-excerpt{
+		width:100%;
+	}
+}
+
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+
+@media (min-width:481px) {
+	.wpbdp-excerpt{
+		width:100%;
+	}
+}
+
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+
+@media (min-width:641px) {
+	.wpbdp-excerpt{
+		width:50%;
+	}
+}
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+
+@media (min-width:961px) {
+	.wpbdp-excerpt{
+		width:50%;
+	}
+}
+
+/* big landscape tablets, laptops, and desktops */
+
+@media (min-width:1025px) {
+	.wpbdp-excerpt{
+		width:33.333%;
+	}
+}
+
+/* hi-res laptops and desktops */
+
+@media (min-width:1281px) {
+	.wpbdp-excerpt{
+		width:25%;
+	}
+}
+
+
+
+
+

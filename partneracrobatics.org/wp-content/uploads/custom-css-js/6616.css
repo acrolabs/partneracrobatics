@@ -1,0 +1,23 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/*Not happy with these generic headers */
+input[type="email"] {
+    width: 220px;
+    border: 1px solid;
+}
+input[type="submit"] {
+    margin: 5px!important;
+}
+validate {
+  text-align: center;
+}
+div#thismydivfool {
+  text-align: center
+}
+input#mce-EMAIL.emailz {
+  background-color: #4c4c4c
+}
+input#mc-embedded-subscribe.button {
+  background-color: #4c4c4c
+}</style>
+<!-- end Simple Custom CSS and JS -->

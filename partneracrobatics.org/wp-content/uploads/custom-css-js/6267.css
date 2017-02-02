@@ -1,0 +1,16 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+a {
+	color: #00A3D7;
+}
+a:visited {
+	color: #00A3D7;
+}
+a:hover,
+a:focus,
+a:active {
+	color: #00A3D7;
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

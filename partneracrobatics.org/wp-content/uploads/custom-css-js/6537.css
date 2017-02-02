@@ -1,0 +1,54 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.about-us p {
+    color: #dadada;
+    font-size: medium;
+}
+.team-member .details {
+    text-align: center;
+    font-size: small;
+}
+.team-member .position {
+    font-size: inherit;
+}
+.our-team {
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+
+.testimonial {
+  background: #00a3d7;
+}
+
+.contact-us .custom-button {
+    float: inherit;
+    margin-right: 0px;
+}
+.focus {
+    padding-top: 50px;
+      padding-bottom: 50px;
+}
+.focus .row .focus-box {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 25px;
+} 
+
+.focus-box p {
+    font-size: medium;
+}
+.section-header .section-legend {
+    font-size: larger;
+}
+.focus-box h3 {
+    color: #000000;
+}
+.focus-box .service-icon {
+	width: 150px;
+	height: 150px;
+	border: 0px solid #01a3d7;
+}
+.focus-box p {
+    color: #000000;
+}</style>
+<!-- end Simple Custom CSS and JS -->

@@ -1,0 +1,7 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover {
+    color: #000;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

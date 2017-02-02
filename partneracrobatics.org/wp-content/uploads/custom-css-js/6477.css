@@ -1,0 +1,67 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+div.ss-form-desc {
+    background: #43ae56;
+    color: #fff;
+    font-size: 1.4em;
+    line-height: 1.4;
+    margin: 0 0 .8em;
+    padding: .8em;
+    width: auto;
+    text-align: center;
+}
+div.ss-form-container {
+    background: none;
+    border: none;
+    font-size: 1.1em;
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 0;
+    width: auto;
+}
+.ss-section-title {
+    background-color: #eee;
+    padding: 0.4em;
+    margin: 2em -0.4em 0;
+}
+.ss-q-title {
+    display: block;
+    font-weight: bold;
+    line-height: 1;
+  	padding-bottom: 20px
+}
+textarea.ss-q-long {
+    width: 100%;
+    background: white;
+    border-color: black;
+    height: 50px;
+}
+td.ss-scalenumbers {
+    PADDING: 0;
+    BORDER-TOP: 0;
+}
+td.ss-scalerow {
+    BORDER-TOP: 1PX SOLID #000;
+  BORDER-BOTTOM: 1PX SOLID #000;
+}
+.ss-response-footer {
+    display: none;
+}
+.ss-q-title {
+    font-size: larger;
+}
+ol {
+    margin: 0
+}
+
+div.ss-required-asterisk {
+    padding-bottom: 22px;
+}
+.ss-required-asterisk {
+    color: #b10007;
+}
+div.ss-form-entry>input {
+    background-color: #ffffff;
+    border: 1px solid black;
+}</style>
+<!-- end Simple Custom CSS and JS -->

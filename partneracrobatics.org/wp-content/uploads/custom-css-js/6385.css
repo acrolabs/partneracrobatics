@@ -1,0 +1,70 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.nav > li.current_page_item a, .nav > li.current-menu-item a {
+    color: #00a3d7;
+}
+
+ul.nav > li.current_page_item > a:before, .nav > li.current-menu-item > a:before {
+    background: #00a3d7;
+}
+.listpost-content-wrap h1.entry-title a:hover{
+    color: #00a3d7;
+}
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a.link-focus {
+	color: #00a3d7;
+}
+@media (max-width: 767px)
+.dropdownmenu {
+    background: url(images/menu-icon.png) center center no-repeat #000;
+}
+.navbar-toggle.active {
+    background-color: #00a3d7 !important;
+}
+
+.navbar-inverse .navbar-nav>li>a.link-focus {
+	color: #00a3d7;
+}
+.navbar-inverse .navbar-toggle:hover,.navbar-inverse .navbar-toggle:focus {
+	background-color: #00a3d7;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: #00a3d7;
+}
+.navbar-inverse .navbar-nav>li.current>a {
+	color: #00a3d7;
+}
+li.current>a:before {
+	background: #00a3d7;
+}
+ul.nav > li.current > a:before,
+.page ul.nav > li.current-menu-item > a:before,
+.single-post ul.nav > li.current-menu-item > a:before,
+.archive ul.nav > li.current-menu-item > a:before {
+	background: #00a3d7;
+}
+
+ul.nav > li.current_page_item.current > a:before {
+	background: #00a3d7;
+ 
+}
+
+.this-open > a {
+		color: #00a3d7 !important;
+	}
+
+.navbar-inverse .navbar-nav ul.sub-menu li:hover > a,
+.navbar-inverse .navbar-nav ul.sub-menu li.link-focus > a {
+	color:#00a3d7;
+}
+
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > HEADER#home > DIV#main-nav > DIV.container > NAV> UL.nav.navbar-nav.navbar-right.responsive-nav.main-nav-list > LI.has_children > P.dropdownmenu   {
+       background-color: rgba(0,163,215,1); 
+    } 
+
+.dropdownmenu {
+    background-color: #00a3d7!important;
+}</style>
+<!-- end Simple Custom CSS and JS -->

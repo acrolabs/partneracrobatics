@@ -1,0 +1,12 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.wpbdp-submit-page.step-images .wpbdp-image {
+    margin-left: 2px!important;
+}
+.wpbdp-cf, .cf {
+    padding: 2px;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    margin: 0px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

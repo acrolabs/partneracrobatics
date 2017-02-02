@@ -1,0 +1,7 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+HTML > BODY > DIV#mobilebgfix > DIV.mobile-bg-fix-whole-site > DIV#content > DIV.container > DIV.content-left-wrap > DIV#primary > MAIN#main > ARTICLE > DIV.entry-content > P > IFRAME {
+       display: block; 
+       width: 100%; 
+    } </style>
+<!-- end Simple Custom CSS and JS -->
