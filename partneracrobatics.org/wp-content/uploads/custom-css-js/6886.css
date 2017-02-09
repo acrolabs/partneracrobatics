@@ -1,0 +1,19 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+                     
+Post Baseline Code
+
+End of comment */
+
+.wpbdp-listing img {
+      height: 225px;
+}
+
+.wpbdp-excerpt {
+    float: left;
+    height: 320px;
+    width: 100%;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

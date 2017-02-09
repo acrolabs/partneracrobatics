@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.tribe-events-list .tribe-events-event-image img {
+z-index: 10;
+POSITION: relative;
+}
+</style>
+<!-- end Simple Custom CSS and JS -->

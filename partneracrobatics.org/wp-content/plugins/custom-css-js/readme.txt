@@ -6,7 +6,7 @@ Email: diana@burduja.eu
 Tags: CSS, JS, javascript, custom CSS, custom JS, custom style, site css, add style, customize theme, custom code, external css, css3, style, styles, stylesheet, theme, editor, design, admin
 Requires at least: 3.0.1
 Tested up to: 4.7
-Stable tag: 2.9 
+Stable tag: 2.10 
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -48,7 +48,7 @@ Yes.
 The CSS and JS are independent of the theme and they will persist through a theme change. This is particularly useful if you apply CSS and JS for modifying a plugin's output. 
 
 * **Can I use a CSS preprocesor like LESS or Sass?**
-For the moment only plain CSS is supported, but you can check out the [Pro version](https://www.silkypress.com/simple-custom-css-js-pro/) in case you need a CSS preprocessor.
+For the moment only plain CSS is supported, but you can check out the [Pro version](https://www.silkypress.com/simple-custom-css-js-pro/?utm_source=wordpress&utm_campaign=ccj_free&utm_medium=banner) in case you need a CSS preprocessor.
 
 * **Can I upload images for use with my CSS?**
 Yes. You can upload an image to your Media Library, then refer to it by its direct URL from within the CSS stylesheet. For example:
@@ -114,6 +114,11 @@ PHP >= 5.3
 $. Add/Edit HTML 
 
 == Changelog ==
+
+= 2.10 =
+* 02/05/2016
+* Feature: circumvent external file caching by adding a GET parameter
+* Add special offer for Simple Custom CSS and JS pro
 
 = 2.9 =
 * 12/05/2016

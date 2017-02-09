@@ -39,7 +39,7 @@ class CustomCSSandJS_Addons {
 ?>
     <div class="ccj_only_premium ccj_only_premium-first">
         <div> 
-            <a href="https://www.silkypress.com/simple-custom-css-js-pro/" target="_blank">Only available in Premium version</a>
+            <a href="https://www.silkypress.com/simple-custom-css-js-pro/?utm_source=wordpress&utm_campaign=ccj_free&utm_medium=banner" target="_blank">Available only in <br />Simple Custom CSS and JS Pro</a>
         </div>
     </div>
     <?php

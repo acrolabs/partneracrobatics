@@ -17,7 +17,7 @@ class CustomCSSandJS_Notices {
     var $activation_time = '';
     var $version = '';
     var $dismiss_notice = '';
-    var $expiration_days = 3;
+    var $expiration_days = 2;
 
     /**
      * Constructor
@@ -40,8 +40,15 @@ class CustomCSSandJS_Notices {
      * Hooked from 'admin_notices'
      */
     public function admin_notices() {
+        $screen = get_current_screen();
+
+        if ( !isset($screen->post_type) || $screen->post_type !== 'custom-css-js' )
+            return;
  
         if ( ! $notice = $this->choose_notice() )
+            return;
+
+        if ( time() - $this->activation_time <= 3600 )
             return;
 
         $message = $this->get_message( $notice );
@@ -81,16 +88,16 @@ class CustomCSSandJS_Notices {
         switch ( $days_passed ) {
             case 1 : return '1_day';
             case 2 : return '2_day';
-            case 3 : return '3_day';
-            case 4 :
-            case 5 :
-            case 6 :
-            case 7 : return '7_day';
-            case 8 :
-            case 9 :
-            case 10 :
-            case 11 :
-            case 12 : return '12_day';
+            case 3 : break; //return '3_day';
+            case 4 : break;
+            case 5 : break;
+            case 6 : break;
+            case 7 : break; // return '7_day';
+            case 8 : break;
+            case 9 : break;
+            case 10 : break;
+            case 11 : break;
+            case 12 : break; //return '12_day';
         }
     }
 
@@ -100,28 +107,30 @@ class CustomCSSandJS_Notices {
     public function get_message( $notice ) {
 
         $message = '';
-        $percentage = '40';
+        $percentage = '30';
         $product_name = 'Simple Custom CSS and JS PRO';
 
         $expiration_date = $this->activation_time + ( $this->expiration_days * 86400 ); 
         $expiration_date = date( get_option( 'date_format') , $expiration_date );
 
+        $expiration_period = date('j M', $this->activation_time - 3*86400 ) . ' - ' . date('j M', $this->activation_time + 2*86400 );
+
 
         if ( $notice == '12_days' ) {
-            $link = 'https://www.silkypress.com/simple-custom-css-js-pro-offer/';
+            $link = 'https://www.silkypress.com/simple-custom-css-js-pro/?utm_source=wordpress&utm_campaign=ccj_free&utm_medium=banner';
         } else {
-            $link = 'https://www.silkypress.com/simple-custom-css-js-pro-special-offer/?a=' . $this->convert_numbers_letters( $this->activation_time );
+            $link = 'https://www.silkypress.com/simple-custom-css-js-pro/?a=' . $this->convert_numbers_letters( $this->activation_time ) . '&utm_source=wordpress&utm_campaign=ccj_free&utm_medium=banner';
         }
 
-        $lower_part = sprintf( '<div style="margin-top: 7px;"><a href="%s" target="_blank">%s</a> | <a href="#" class="dismiss_notice"  target="_parent">%s</a></div>', $link, 'Get ' . $product_name, 'Dismiss this notice' ); 
+        $lower_part = sprintf( '<div style="margin-top: 7px;"><a href="%s" target="_blank">%s</a> | <a href="#" class="dismiss_notice"  target="_parent">%s</a></div>', $link, 'Get your discount now', 'Dismiss this notice' ); 
 
         switch ( $notice ) {
             case '1_day' :
-                $message = '<div><b>Limited offer ending on '. $expiration_date .'</b>. '.$percentage.'% Off from '.$product_name.' for our WordPress.org users.</div>' . $lower_part;
+                $message = '<div>Only between '. $expiration_period .': <b>'.$percentage.'% Off from <a href="'.$link.'" target="_blank">'.$product_name.'</a></b> for our WordPress.org users.</div>' . $lower_part;
                 break;
 
             case '2_day' : 
-                $message = '<div><b>Limited offer ending in 1 day (on '. $expiration_date .')</b>. '.$percentage.'% Off from '.$product_name.' for our WordPress.org users. </div>' . $lower_part;
+                $message = '<div><b>Limited offer ending today</b>. '.$percentage.'% Off from <a href="'.$link.'" target="_blank">'.$product_name.'</a> for our WordPress.org users. </div>' . $lower_part;
                 break;
 
             case '3_day' : 

@@ -576,11 +576,10 @@ End of comment */ ' . PHP_EOL . PHP_EOL;
             foreach( $meta as $_key => $a ) {
                 $close_div = false;
 
-                if ( $_key == 'preprocessor' ) {
-                    $output .= '<div class="ccj_opaque">';
-                }
-
-                if ( $_key == 'linking' && $options['language'] == 'html' ) {
+                if ( ($_key == 'preprocessor' && $options['language'] == 'css') || 
+                    ($_key == 'linking' && $options['language'] == 'html') ||
+                    $_key == 'priority' ||
+                    $_key == 'minify' ) {
                     $close_div = true;
                     $output .= '<div class="ccj_opaque">';
                 }
@@ -612,7 +611,7 @@ End of comment */ ' . PHP_EOL . PHP_EOL;
 
             <div class="ccj_only_premium ccj_only_premium-right">
                 <div> 
-                    <a href="https://www.silkypress.com/simple-custom-css-js-pro/" target="_blank">Only available in Premium version</a>
+                    <a href="https://www.silkypress.com/simple-custom-css-js-pro/?utm_source=wordpress&utm_campaign=ccj_free&utm_medium=banner" target="_blank">Available only in <br />Simple Custom CSS and JS Pro</a>
                 </div>
             </div>
 
@@ -695,7 +694,25 @@ End of comment */ ' . PHP_EOL . PHP_EOL;
                 'dashicon' => 'editor-contract',
                 'disabled' => true,
             ),
-
+            'priority' => array(
+                'title' => 'Priority',
+                'type' => 'select',
+                'default' => 5,
+                'dashicon' => 'sort',
+                'values' => array(
+                    1 => '1 (highest)',
+                    2 => '2',
+                    3 => '3',
+                    4 => '4',
+                    5 => '5',
+                    6 => '6',
+                    7 => '7',
+                    8 => '8',
+                    9 => '9',
+                    10 => '10 (lowest)',
+                ),
+                'disabled' => true,
+            ),
         );
 
         return $options;
@@ -758,6 +775,26 @@ End of comment */ ' . PHP_EOL . PHP_EOL;
                 ),
                 'disabled' => true,
             ),
+            'priority' => array(
+                'title' => 'Priority',
+                'type' => 'select',
+                'default' => 5,
+                'dashicon' => 'sort',
+                'values' => array(
+                    1 => '1 (highest)',
+                    2 => '2',
+                    3 => '3',
+                    4 => '4',
+                    5 => '5',
+                    6 => '6',
+                    7 => '7',
+                    8 => '8',
+                    9 => '9',
+                    10 => '10 (lowest)',
+                ),
+                'disabled' => true,
+            ),
+
         );
 
         return $options;
@@ -991,10 +1028,20 @@ End of comment */ ' . PHP_EOL . PHP_EOL;
             $output .= '<label class="'.$dashicons.'" for="'.$name.'"> '.$a['title'].'</label>';
             $output .= '</div>' . PHP_EOL;
         }
-        
-        if ( $_key == 'minify' ) {
-            $output .= '</div>';
+
+
+        // Show select type options
+        if ( $a['type'] == 'select' ) {
+            $output .= '<div class="radio-group">' . PHP_EOL;
+            $output .= '<select name="'.$name.'" id="'.$name.'">' . PHP_EOL;
+            foreach( $a['values'] as $__key => $__value ) {
+                $selected = ( isset($options[$_key]) && $options[$_key] == $__key) ? ' selected="selected"' : '';
+                $output .= '<option value="'.$__key.'"'.$selected.'>' . $__value . '</option>' . PHP_EOL;
+            } 
+            $output .= '</select>' . PHP_EOL;
+            $output .= '</div>' . PHP_EOL;
         }
+
 
         return $output;
 

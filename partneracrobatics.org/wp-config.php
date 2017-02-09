@@ -32,7 +32,7 @@ define('DB_NAME', 'i3251526_wp3');
 define('DB_USER', 'i3251526_wp3');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'G#qkcy7NufDe7O]RAE.00.]4');
+define('DB_PASSWORD', 'Cortijocaseria17');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
