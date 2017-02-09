@@ -16208,3 +16208,9 @@
 [09-Feb-2017 17:42:15 UTC] PHP Notice:  Undefined variable: curLang in /home/partneracro/public_html/manual.php on line 2
 [09-Feb-2017 17:43:29 UTC] PHP Notice:  Undefined variable: label in /home/partneracro/public_html/program-15.php on line 1
 [09-Feb-2017 17:43:29 UTC] PHP Notice:  Undefined variable: curLang in /home/partneracro/public_html/program-15.php on line 1
+[09-Feb-2017 17:54:28 UTC] PHP Notice:  Undefined index: title in /home/partneracro/public_html/manual.php on line 2
+[09-Feb-2017 17:54:28 UTC] PHP Notice:  Undefined variable: label in /home/partneracro/public_html/manual.php on line 2
+[09-Feb-2017 17:54:28 UTC] PHP Notice:  Undefined variable: curLang in /home/partneracro/public_html/manual.php on line 2
+[09-Feb-2017 17:58:45 UTC] PHP Notice:  Undefined index: title in /home/partneracro/public_html/manual.php on line 2
+[09-Feb-2017 17:58:45 UTC] PHP Notice:  Undefined variable: label in /home/partneracro/public_html/manual.php on line 2
+[09-Feb-2017 17:58:45 UTC] PHP Notice:  Undefined variable: curLang in /home/partneracro/public_html/manual.php on line 2
